@@ -1,0 +1,130 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>gr4</title>
+		<style>
+			*
+			{
+				box-sizing: border-box;
+				margin: 0;
+				padding: 0;
+			}
+			body
+			{
+				background-image: linear-gradient(to right, red,yellow,green);
+			}
+			img
+			{
+				width: 80%;
+				height: auto;
+			}
+			header
+			{
+				width: 99%;
+				margin: 10px;
+				
+			}
+			nav
+			{
+				background-color: grey;
+				text-align: left;
+				padding: 15px;
+			}
+			footer
+			{
+				background-color: grey;
+				text-align: left;
+				padding: 15px;
+				text-align: center;
+				width: 100%;
+				position: fixed;
+				bottom: 0;
+			}
+			a
+			{
+				text-decoration: none;
+				color:white;
+				padding: 15px;
+			}
+			a:hover
+			{
+				color: black;
+			}
+			h1
+			{
+				background-color: black;
+				color: white;
+				text-align: center;
+				padding: 30px;
+			}
+			main
+			{
+				background-color: white;
+				width: 30%;
+				text-align: center;
+				position: relative;
+				left: 660px;
+				margin-bottom: 1000px;
+				padding: 30px;
+			}
+			div
+			{
+				background-color: white;
+				width: 200px;
+				text-align: center;
+				padding: 30px;
+			}
+			#first
+			{
+				position: relative;
+				left: 200px;
+				top: 50px;
+			}
+			#second
+			{
+				position: absolute;
+				top: 100px;
+				right: 50px;
+			}
+			#third
+			{
+				position: fixed;
+				right: 30px;
+				bottom: 100px;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>Header</h1>
+			<nav>
+				<a href="#">Link</a>
+				<a href="#">Link</a>
+				<a href="#">Link</a>
+				<a href="#">Link</a>
+			</nav>
+		</header>
+    	<div id="first">
+          	<p>Position Relative</p>
+			<div id="second">
+      			<p>Position Absolute</p>
+    		</div>
+		</div>
+    	
+		<div id="third">
+  			<p>Position Fixed</p>
+		</div>
+		<main>
+  			<h2>Titulo</h2>
+			<img alt="#" src="img/icecream.jpg">
+			<h2>Titulo</h2>
+			<img alt="#" src="img/icecream.jpg">
+			<h2>Titulo</h2>
+			<img alt="#" src="img/icecream.jpg">
+		</main>
+		<footer>
+			<p>Lorem Ipsum</p>
+		</footer>
+</body>
+</html>
